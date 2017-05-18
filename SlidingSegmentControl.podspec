@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.summary      = "SlidingSegmentControl"
 
   s.description  = <<-DESC
-this is only for OC.
+this is only for Objective C.
                    DESC
 
   s.homepage     = "https://github.com/TonnyTeng/SlidingSegmentControl"
