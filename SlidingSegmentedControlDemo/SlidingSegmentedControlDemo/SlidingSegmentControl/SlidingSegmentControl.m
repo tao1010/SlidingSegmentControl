@@ -117,8 +117,7 @@
 - (void)updateTheItemSizeInLayout {
     
     self.flowLayout.itemSize = CGSizeMake((CGFloat)(self.frame.size.width / _itemNumberForOnePage), self.frame.size.height);
-    self.indexView.bounds = CGRectMakeBound(self.flowLayout.itemSize.width * 0.4, 3);
-    
+    self.indexView.frame = CGRectMake(self.indexView.frame.origin.x, self.indexView.frame.origin.y, self.flowLayout.itemSize.width * 0.4, 3);
     [self moveIndexViewToIndexPath:_selectedIndexPath];
 }
 
@@ -240,7 +239,7 @@
     while ([_separators count] < count - 1) { // 分割数量 = cell count - 1;
         UIImageView *line = [[UIImageView alloc] init];
         line.image = _separatorImage;
-        line.bounds = CGRectMakeBound(2, cellSize.height * 0.8);
+        line.frame = CGRectMake(line.frame.origin.x, line.frame.origin.y, 2, cellSize.height * 0.8);
         line.center = CGPointMake(cellSize.width * ([_separators count] + 1) - line.frame.size.width / 2.0, cellSize.height / 2.0);
         [self addSubview:line];
         [_separators addObject:line];
@@ -290,7 +289,6 @@
     cell.backgroundColor = [UIColor clearColor];
     cell.titleLabel.numberOfLines = 0;
     cell.titleLabel.text = item.title;
-//    cell.titleLabel.backgroundColor = kGCColorMainPurple;
     cell.titleLabel.font = [UIFont systemFontOfSize:15];
     cell.titleLabel.textColor = _selectedIndexPath.row == indexPath.row ? _tintColor : [UIColor blackColor];
     
@@ -300,23 +298,6 @@
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     [self selectTheCollectionCellWithIndexPath:indexPath];
 }
-
-CGRect CGRectMakeBound( CGFloat w, CGFloat h )
-{
-    CGRect rect;
-    rect.origin = CGPointZero;
-    rect.size.width = w;
-    rect.size.height = h;
-    return rect;
-}
-
-- (CGFloat)width {
-    return self.frame.size.width;
-}
-
-//- (void)setWidth:(CGFloat)width {
-//    self.frame = CGRectMake(self.x, self.y, width, self.height);
-//}
 
 
 @end
