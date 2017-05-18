@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		061AD4C91ECC0BB000753FB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 061AD4C81ECC0BB000753FB6 /* main.m */; };
+		061AD4CC1ECC0BB000753FB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 061AD4CB1ECC0BB000753FB6 /* AppDelegate.m */; };
+		061AD4CF1ECC0BB000753FB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 061AD4CE1ECC0BB000753FB6 /* ViewController.m */; };
+		061AD4D21ECC0BB000753FB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 061AD4D01ECC0BB000753FB6 /* Main.storyboard */; };
+		061AD4D41ECC0BB000753FB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 061AD4D31ECC0BB000753FB6 /* Assets.xcassets */; };
+		061AD4D71ECC0BB000753FB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 061AD4D51ECC0BB000753FB6 /* LaunchScreen.storyboard */; };
+		06378F931ECD920100E964A0 /* SlidingSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 06378F911ECD920100E964A0 /* SlidingSegmentControl.m */; };
+		7A8DE5A1CDBDDF1250C9D89B /* libPods-SlidingSegmentedControlDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92551B124995B2DED172DDEC /* libPods-SlidingSegmentedControlDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		061AD4C41ECC0BB000753FB6 /* SlidingSegmentedControlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidingSegmentedControlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		061AD4C81ECC0BB000753FB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		061AD4CA1ECC0BB000753FB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		061AD4CB1ECC0BB000753FB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		061AD4CD1ECC0BB000753FB6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		061AD4CE1ECC0BB000753FB6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		061AD4D11ECC0BB000753FB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		061AD4D31ECC0BB000753FB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		061AD4D61ECC0BB000753FB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		061AD4D81ECC0BB000753FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06378F901ECD920100E964A0 /* SlidingSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingSegmentControl.h; sourceTree = "<group>"; };
+		06378F911ECD920100E964A0 /* SlidingSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingSegmentControl.m; sourceTree = "<group>"; };
+		6DD6AA89DC3DC5F00550973B /* Pods-SlidingSegmentedControlDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlidingSegmentedControlDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SlidingSegmentedControlDemo/Pods-SlidingSegmentedControlDemo.release.xcconfig"; sourceTree = "<group>"; };
+		92551B124995B2DED172DDEC /* libPods-SlidingSegmentedControlDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SlidingSegmentedControlDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA0E5E1D7B487C79BAFF59E /* Pods-SlidingSegmentedControlDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlidingSegmentedControlDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SlidingSegmentedControlDemo/Pods-SlidingSegmentedControlDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		061AD4C11ECC0BB000753FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A8DE5A1CDBDDF1250C9D89B /* libPods-SlidingSegmentedControlDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		061AD4BB1ECC0BB000753FB6 = {
+			isa = PBXGroup;
+			children = (
+				061AD4C61ECC0BB000753FB6 /* SlidingSegmentedControlDemo */,
+				061AD4C51ECC0BB000753FB6 /* Products */,
+				E8075AEA0E5247BCD0311180 /* Pods */,
+				0B171076B4F3BBB968550D4B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		061AD4C51ECC0BB000753FB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				061AD4C41ECC0BB000753FB6 /* SlidingSegmentedControlDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		061AD4C61ECC0BB000753FB6 /* SlidingSegmentedControlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				06378F8D1ECD920100E964A0 /* SlidingSegmentControl */,
+				061AD4CA1ECC0BB000753FB6 /* AppDelegate.h */,
+				061AD4CB1ECC0BB000753FB6 /* AppDelegate.m */,
+				061AD4CD1ECC0BB000753FB6 /* ViewController.h */,
+				061AD4CE1ECC0BB000753FB6 /* ViewController.m */,
+				061AD4D01ECC0BB000753FB6 /* Main.storyboard */,
+				061AD4D31ECC0BB000753FB6 /* Assets.xcassets */,
+				061AD4D51ECC0BB000753FB6 /* LaunchScreen.storyboard */,
+				061AD4D81ECC0BB000753FB6 /* Info.plist */,
+				061AD4C71ECC0BB000753FB6 /* Supporting Files */,
+			);
+			path = SlidingSegmentedControlDemo;
+			sourceTree = "<group>";
+		};
+		061AD4C71ECC0BB000753FB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				061AD4C81ECC0BB000753FB6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06378F8D1ECD920100E964A0 /* SlidingSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				06378F901ECD920100E964A0 /* SlidingSegmentControl.h */,
+				06378F911ECD920100E964A0 /* SlidingSegmentControl.m */,
+			);
+			path = SlidingSegmentControl;
+			sourceTree = "<group>";
+		};
+		0B171076B4F3BBB968550D4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92551B124995B2DED172DDEC /* libPods-SlidingSegmentedControlDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8075AEA0E5247BCD0311180 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFA0E5E1D7B487C79BAFF59E /* Pods-SlidingSegmentedControlDemo.debug.xcconfig */,
+				6DD6AA89DC3DC5F00550973B /* Pods-SlidingSegmentedControlDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		061AD4C31ECC0BB000753FB6 /* SlidingSegmentedControlDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 061AD4DB1ECC0BB000753FB6 /* Build configuration list for PBXNativeTarget "SlidingSegmentedControlDemo" */;
+			buildPhases = (
+				63B6397FAFBDDFD036318F08 /* [CP] Check Pods Manifest.lock */,
+				061AD4C01ECC0BB000753FB6 /* Sources */,
+				061AD4C11ECC0BB000753FB6 /* Frameworks */,
+				061AD4C21ECC0BB000753FB6 /* Resources */,
+				00A90852F088E1E59DEC190B /* [CP] Embed Pods Frameworks */,
+				B250D8AA1C6AEBBA0624623D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlidingSegmentedControlDemo;
+			productName = SlidingSegmentedControlDemo;
+			productReference = 061AD4C41ECC0BB000753FB6 /* SlidingSegmentedControlDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		061AD4BC1ECC0BB000753FB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = JingXian;
+				TargetAttributes = {
+					061AD4C31ECC0BB000753FB6 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = RAGM772GXX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 061AD4BF1ECC0BB000753FB6 /* Build configuration list for PBXProject "SlidingSegmentedControlDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 061AD4BB1ECC0BB000753FB6;
+			productRefGroup = 061AD4C51ECC0BB000753FB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				061AD4C31ECC0BB000753FB6 /* SlidingSegmentedControlDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		061AD4C21ECC0BB000753FB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061AD4D71ECC0BB000753FB6 /* LaunchScreen.storyboard in Resources */,
+				061AD4D41ECC0BB000753FB6 /* Assets.xcassets in Resources */,
+				061AD4D21ECC0BB000753FB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00A90852F088E1E59DEC190B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlidingSegmentedControlDemo/Pods-SlidingSegmentedControlDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63B6397FAFBDDFD036318F08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B250D8AA1C6AEBBA0624623D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlidingSegmentedControlDemo/Pods-SlidingSegmentedControlDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		061AD4C01ECC0BB000753FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061AD4CF1ECC0BB000753FB6 /* ViewController.m in Sources */,
+				06378F931ECD920100E964A0 /* SlidingSegmentControl.m in Sources */,
+				061AD4CC1ECC0BB000753FB6 /* AppDelegate.m in Sources */,
+				061AD4C91ECC0BB000753FB6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		061AD4D01ECC0BB000753FB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				061AD4D11ECC0BB000753FB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		061AD4D51ECC0BB000753FB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				061AD4D61ECC0BB000753FB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		061AD4D91ECC0BB000753FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		061AD4DA1ECC0BB000753FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		061AD4DC1ECC0BB000753FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA0E5E1D7B487C79BAFF59E /* Pods-SlidingSegmentedControlDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RAGM772GXX;
+				INFOPLIST_FILE = SlidingSegmentedControlDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingxian.SlidingSegmentedControlDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		061AD4DD1ECC0BB000753FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DD6AA89DC3DC5F00550973B /* Pods-SlidingSegmentedControlDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RAGM772GXX;
+				INFOPLIST_FILE = SlidingSegmentedControlDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingxian.SlidingSegmentedControlDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		061AD4BF1ECC0BB000753FB6 /* Build configuration list for PBXProject "SlidingSegmentedControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				061AD4D91ECC0BB000753FB6 /* Debug */,
+				061AD4DA1ECC0BB000753FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		061AD4DB1ECC0BB000753FB6 /* Build configuration list for PBXNativeTarget "SlidingSegmentedControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				061AD4DC1ECC0BB000753FB6 /* Debug */,
+				061AD4DD1ECC0BB000753FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 061AD4BC1ECC0BB000753FB6 /* Project object */;
+}

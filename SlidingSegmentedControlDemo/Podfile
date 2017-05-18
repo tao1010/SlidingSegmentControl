@@ -1,0 +1,8 @@
+platform :ios,'8.0'
+target 'SlidingSegmentedControlDemo' do
+
+pod 'PunchScrollView'
+
+end
+
+

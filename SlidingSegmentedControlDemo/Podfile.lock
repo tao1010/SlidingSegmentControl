@@ -1,0 +1,12 @@
+PODS:
+  - PunchScrollView (1.1.1)
+
+DEPENDENCIES:
+  - PunchScrollView
+
+SPEC CHECKSUMS:
+  PunchScrollView: 5c77554bc66fdf0cbf9ec29214dc3294bf5bd7e2
+
+PODFILE CHECKSUM: 113ae0c63279b935b475396b5b9f57a35f4f70ff
+
+COCOAPODS: 1.2.0

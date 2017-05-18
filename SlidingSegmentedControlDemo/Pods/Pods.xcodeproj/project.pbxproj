@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		273431EEC2892BCF35E0CEBE325AD522 /* PunchScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E34D835DBEA60A0544586C2C2ED697 /* PunchScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AE330701E405F9F2F90781507C76C58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4B6A81863F54123A740DBD30325AC24B /* PunchScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD7D33D771D98932542B3128F1FC8EA /* PunchScrollView-dummy.m */; };
+		84E8AAAB2DFE97EE355C6A6F6C248EE6 /* Pods-SlidingSegmentedControlDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0A3A1812CF651A6DDC0CDE7AD0BD4F /* Pods-SlidingSegmentedControlDemo-dummy.m */; };
+		A924454F89A955BE809CAFDCEEE58781 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B505375E1A942C89311E90DD6D9395BE /* PunchScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C244C05E28FC69610309EECB80E76C /* PunchScrollView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CF04E55D328A7C94ED78A6E96B5E035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 663DFD5797CFBE5F8EDC4AC14BE6B2EB;
+			remoteInfo = PunchScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DA12318FB748D7DFF147471CCD43FE3 /* Pods-SlidingSegmentedControlDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SlidingSegmentedControlDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2DD7D33D771D98932542B3128F1FC8EA /* PunchScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PunchScrollView-dummy.m"; sourceTree = "<group>"; };
+		3BDFF1B7FBC335B65A7232FF10291EDE /* Pods-SlidingSegmentedControlDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SlidingSegmentedControlDemo-resources.sh"; sourceTree = "<group>"; };
+		553BA31125387249D98312FFE1945074 /* Pods-SlidingSegmentedControlDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SlidingSegmentedControlDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		58F7CC48DC114C876F736A9D4A9D03A8 /* Pods-SlidingSegmentedControlDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SlidingSegmentedControlDemo-frameworks.sh"; sourceTree = "<group>"; };
+		5A943079BCC2CF2DDA9B5909E53A4E7B /* PunchScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PunchScrollView-prefix.pch"; sourceTree = "<group>"; };
+		5EFA60B76983B77C3266ACB9DFE680BB /* libPunchScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPunchScrollView.a; path = libPunchScrollView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C0A3A1812CF651A6DDC0CDE7AD0BD4F /* Pods-SlidingSegmentedControlDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SlidingSegmentedControlDemo-dummy.m"; sourceTree = "<group>"; };
+		77C244C05E28FC69610309EECB80E76C /* PunchScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PunchScrollView.m; sourceTree = "<group>"; };
+		86E180F013027F094B4B9439177959F4 /* libPods-SlidingSegmentedControlDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SlidingSegmentedControlDemo.a"; path = "libPods-SlidingSegmentedControlDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97925D087A47345349EE9368733D2E3C /* PunchScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PunchScrollView.xcconfig; sourceTree = "<group>"; };
+		A1E34D835DBEA60A0544586C2C2ED697 /* PunchScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PunchScrollView.h; sourceTree = "<group>"; };
+		E3CA7C89CE858B5017A3E88663944273 /* Pods-SlidingSegmentedControlDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlidingSegmentedControlDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F2C799C116ABAA233A8D59244055A7A7 /* Pods-SlidingSegmentedControlDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlidingSegmentedControlDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C6D81AB3232EB29BBED070020183B9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AE330701E405F9F2F90781507C76C58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC52B76D48CE751856A55F35B8149E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A924454F89A955BE809CAFDCEEE58781 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		125DE1DC0682C92DB4BE595A354A07DF /* PunchScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				A1E34D835DBEA60A0544586C2C2ED697 /* PunchScrollView.h */,
+				77C244C05E28FC69610309EECB80E76C /* PunchScrollView.m */,
+				1BDB90981ED2A484B4DC84FD6DCCB114 /* Support Files */,
+			);
+			name = PunchScrollView;
+			path = PunchScrollView;
+			sourceTree = "<group>";
+		};
+		1BDB90981ED2A484B4DC84FD6DCCB114 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97925D087A47345349EE9368733D2E3C /* PunchScrollView.xcconfig */,
+				2DD7D33D771D98932542B3128F1FC8EA /* PunchScrollView-dummy.m */,
+				5A943079BCC2CF2DDA9B5909E53A4E7B /* PunchScrollView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PunchScrollView";
+			sourceTree = "<group>";
+		};
+		671D0D7B2CC97C8440FE2A2B1E3B732E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA1153A937702B591A3E9D84C25317BA /* Pods-SlidingSegmentedControlDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				85AEDC223ED18EDC7C39A535D6DC87E0 /* Pods */,
+				EE2A1B6D42AD7290FC18D2B70EC41F8B /* Products */,
+				671D0D7B2CC97C8440FE2A2B1E3B732E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85AEDC223ED18EDC7C39A535D6DC87E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				125DE1DC0682C92DB4BE595A354A07DF /* PunchScrollView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA1153A937702B591A3E9D84C25317BA /* Pods-SlidingSegmentedControlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2DA12318FB748D7DFF147471CCD43FE3 /* Pods-SlidingSegmentedControlDemo-acknowledgements.markdown */,
+				553BA31125387249D98312FFE1945074 /* Pods-SlidingSegmentedControlDemo-acknowledgements.plist */,
+				6C0A3A1812CF651A6DDC0CDE7AD0BD4F /* Pods-SlidingSegmentedControlDemo-dummy.m */,
+				58F7CC48DC114C876F736A9D4A9D03A8 /* Pods-SlidingSegmentedControlDemo-frameworks.sh */,
+				3BDFF1B7FBC335B65A7232FF10291EDE /* Pods-SlidingSegmentedControlDemo-resources.sh */,
+				E3CA7C89CE858B5017A3E88663944273 /* Pods-SlidingSegmentedControlDemo.debug.xcconfig */,
+				F2C799C116ABAA233A8D59244055A7A7 /* Pods-SlidingSegmentedControlDemo.release.xcconfig */,
+			);
+			name = "Pods-SlidingSegmentedControlDemo";
+			path = "Target Support Files/Pods-SlidingSegmentedControlDemo";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EE2A1B6D42AD7290FC18D2B70EC41F8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86E180F013027F094B4B9439177959F4 /* libPods-SlidingSegmentedControlDemo.a */,
+				5EFA60B76983B77C3266ACB9DFE680BB /* libPunchScrollView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		93933374C537E3ED3A33B809259B7E5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273431EEC2892BCF35E0CEBE325AD522 /* PunchScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		663DFD5797CFBE5F8EDC4AC14BE6B2EB /* PunchScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0433CF2F7C6E782AA98B931E3198A3DF /* Build configuration list for PBXNativeTarget "PunchScrollView" */;
+			buildPhases = (
+				4464BB015D8A9A2A4262FEEF24F9CB77 /* Sources */,
+				9C6D81AB3232EB29BBED070020183B9B /* Frameworks */,
+				93933374C537E3ED3A33B809259B7E5C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PunchScrollView;
+			productName = PunchScrollView;
+			productReference = 5EFA60B76983B77C3266ACB9DFE680BB /* libPunchScrollView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B81D606EAC414B7248E3373827AFF0C6 /* Pods-SlidingSegmentedControlDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11603BC3203425B5B64D70B7B9A3B5DB /* Build configuration list for PBXNativeTarget "Pods-SlidingSegmentedControlDemo" */;
+			buildPhases = (
+				C3EE5B6399577EF521A168D1908FB961 /* Sources */,
+				FC52B76D48CE751856A55F35B8149E16 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFE49625CB93385C949D41FC9114BAC0 /* PBXTargetDependency */,
+			);
+			name = "Pods-SlidingSegmentedControlDemo";
+			productName = "Pods-SlidingSegmentedControlDemo";
+			productReference = 86E180F013027F094B4B9439177959F4 /* libPods-SlidingSegmentedControlDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EE2A1B6D42AD7290FC18D2B70EC41F8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B81D606EAC414B7248E3373827AFF0C6 /* Pods-SlidingSegmentedControlDemo */,
+				663DFD5797CFBE5F8EDC4AC14BE6B2EB /* PunchScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4464BB015D8A9A2A4262FEEF24F9CB77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B6A81863F54123A740DBD30325AC24B /* PunchScrollView-dummy.m in Sources */,
+				B505375E1A942C89311E90DD6D9395BE /* PunchScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3EE5B6399577EF521A168D1908FB961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E8AAAB2DFE97EE355C6A6F6C248EE6 /* Pods-SlidingSegmentedControlDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFE49625CB93385C949D41FC9114BAC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PunchScrollView;
+			target = 663DFD5797CFBE5F8EDC4AC14BE6B2EB /* PunchScrollView */;
+			targetProxy = 3CF04E55D328A7C94ED78A6E96B5E035 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		493D03C9CAA49020C29373316A171720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C799C116ABAA233A8D59244055A7A7 /* Pods-SlidingSegmentedControlDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8F48245AE3B7139F689824A0624DB111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97925D087A47345349EE9368733D2E3C /* PunchScrollView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PunchScrollView/PunchScrollView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A76334C9BDCEF4C684706FDAAC178EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97925D087A47345349EE9368733D2E3C /* PunchScrollView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PunchScrollView/PunchScrollView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A7C454500B7BB71D9512057C4DC47AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3CA7C89CE858B5017A3E88663944273 /* Pods-SlidingSegmentedControlDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0433CF2F7C6E782AA98B931E3198A3DF /* Build configuration list for PBXNativeTarget "PunchScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F48245AE3B7139F689824A0624DB111 /* Debug */,
+				A76334C9BDCEF4C684706FDAAC178EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11603BC3203425B5B64D70B7B9A3B5DB /* Build configuration list for PBXNativeTarget "Pods-SlidingSegmentedControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C454500B7BB71D9512057C4DC47AED /* Debug */,
+				493D03C9CAA49020C29373316A171720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
