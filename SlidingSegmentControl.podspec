@@ -21,7 +21,7 @@ this is only for Objective C.
 
   s.source       = { :git => "https://github.com/TonnyTeng/SlidingSegmentControl.git", :tag => "0.0.1" }
 
-  s.source_files  = 'SlidingSegmentControl/SlidingSegmentedControlDemo/SlidingSegmentedControlDemo/SlidingSegmentControl/*.{h,m}'
+  s.source_files  = 'SlidingSegmentedControlDemo/SlidingSegmentedControlDemo/SlidingSegmentControl/*.{h,m}'
 
   #'SlidingSegmentControl/SlidingSegmentControl/*.{h,m}'
 
