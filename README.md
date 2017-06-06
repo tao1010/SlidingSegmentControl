@@ -1,7 +1,7 @@
 # SlidingSegmentControl
 only for OC
 
-
+/Users/jija/Desktop/SlidingSegmentControl/Simulator Screen Shot 02.png
 1.在自定义类中导入头文件
 
 #import "SlidingSegmentControl.h"
