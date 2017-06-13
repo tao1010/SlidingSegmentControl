@@ -150,7 +150,6 @@
 				TargetAttributes = {
 					061AD4C31ECC0BB000753FB6 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = RAGM772GXX;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -363,7 +362,7 @@
 			baseConfigurationReference = EFA0E5E1D7B487C79BAFF59E /* Pods-SlidingSegmentedControlDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RAGM772GXX;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SlidingSegmentedControlDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -377,7 +376,7 @@
 			baseConfigurationReference = 6DD6AA89DC3DC5F00550973B /* Pods-SlidingSegmentedControlDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RAGM772GXX;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SlidingSegmentedControlDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
