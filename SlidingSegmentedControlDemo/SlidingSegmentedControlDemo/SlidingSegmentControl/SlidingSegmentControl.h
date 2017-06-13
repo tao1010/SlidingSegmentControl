@@ -16,7 +16,6 @@
 
 @end
 
-
 //Delegate
 @class SlidingSegmentControl;
 
@@ -27,7 +26,6 @@
 - (void)slidingSegmentedControl:(SlidingSegmentControl *)control didSelectedItemAtIndex:(NSInteger)index;
 
 @end
-
 
 
 @interface SlidingSegmentControl : UICollectionView<UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>

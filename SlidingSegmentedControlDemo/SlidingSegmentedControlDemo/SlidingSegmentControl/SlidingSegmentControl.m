@@ -204,10 +204,6 @@
             
             CGRect rect = [item.title boundingRectWithSize:CGSizeMake(999999.0f, cell.frame.size.height) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : kTitleFont} context:nil];
             
-//            CGSize size = [item.title sizeWithFont:kTitleFont
-//                                 constrainedToSize:CGSizeMake(999999.0f, cell.frame.size.height)
-//                                     lineBreakMode:NSLineBreakByWordWrapping];
-            
             _indexView.frame = CGRectMake(_indexView.frame.origin.x, _indexView.frame.origin.y, rect.size.width, _indexView.frame.size.height);
             
         }
