@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source       = { :git => "https://github.com/TonnyTeng/SlidingSegmentControl.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/TonnyTeng/SlidingSegmentControl.git", :tag => “1.1.1” }
 
   s.source_files  = 'SlidingSegmentControl’,’SlidingSegmentControl/*.{h,m}’
 
