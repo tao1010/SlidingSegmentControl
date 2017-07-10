@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "SlidingSegmentControl"
-  s.version      = “1.1”
+  s.version      = “1.1.1”
   s.summary      = "test"
 
   s.description  = <<-DESC
