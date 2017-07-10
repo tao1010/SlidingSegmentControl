@@ -19,11 +19,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source       = { :git => "https://github.com/TonnyTeng/SlidingSegmentControl.git", :tag => “1.1” }
+  s.source       = { :git => "https://github.com/TonnyTeng/SlidingSegmentControl.git", :tag => s.version }
 
-  s.source_files  = 'SlidingSegmentedControlDemo/SlidingSegmentedControlDemo/SlidingSegmentControl/*.{h,m}'
-
-  #'SlidingSegmentControl/SlidingSegmentControl/*.{h,m}'
+  s.source_files  = 'SlidingSegmentControl’,’SlidingSegmentControl/*.{h,m}’
 
   s.framework  = "UIKit"
   s.requires_arc = true
